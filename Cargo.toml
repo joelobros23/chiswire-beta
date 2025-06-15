@@ -1,0 +1,12 @@
+[package]
+name = "chiswire"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12", features = ["tokio", "advanced"] }
+pnet = "0.34.0"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+pretty-hex = "0.4"
